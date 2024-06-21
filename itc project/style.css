@@ -1,0 +1,36 @@
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, alpha);
+}
+
+
+nav img{
+    width: 250px;
+    cursor: pointer;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(red, green, blue);
+    font-size: 10px ;
+    font-weight: 500;
+}
+nav .navigation ul li a:hover{
+    color: goldenrod;
+    transition: 3.5s ease;
+}
+
